@@ -4,14 +4,18 @@ function App() {
 
   return (
     <>
-      <div>
-        <p>Hello</p>
-      </div>
-      <div>
-        <p>World!</p>
-      </div>
+      <Text />
+      <Text />
     </>
   )
+}
+
+function Text() {
+  return (
+    <div>
+      <p>Hello World!</p>
+    </div>
+  );
 }
 
 export default App
