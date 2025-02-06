@@ -8,8 +8,8 @@ function Navbar() {
         <Link to="/">Movie App</Link>
       </div>
       <div className="navbar-brand">
-        <Link to="/">Home</Link>
-        <Link to="/favorites">Favorites</Link>
+        <Link to="/" className="nav-link">Home</Link>
+        <Link to="/favorites" className="nav-link">Favorites</Link>
       </div>
     </nav>
   );
