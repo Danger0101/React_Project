@@ -5,7 +5,10 @@ function App() {
   return (
     <>
       <div>
-        <p>Hello World!</p>
+        <p>Hello</p>
+      </div>
+      <div>
+        <p>World!</p>
       </div>
     </>
   )
