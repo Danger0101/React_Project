@@ -1,0 +1,26 @@
+/* Ensure the page takes full height */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Make main content take available space */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Push footer to bottom */
+.footer {
+  margin-top: auto; /* Pushes footer to bottom */
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+}
