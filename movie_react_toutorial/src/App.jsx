@@ -1,5 +1,4 @@
-import './App.css'
-import './components/Footer.css'
+import './css/App.css'
 import Home from './pages/Home'
 import Favorite from './pages/Favorites'
 import Navbar from './components/Navbar'
