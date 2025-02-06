@@ -5,15 +5,15 @@ function App() {
   return (
     <>
       <Text />
-      <Text />
+      <Text display="How Are You?" />
     </>
   )
 }
 
-function Text() {
+function Text({display = 'Hello World!'}) {
   return (
     <div>
-      <p>Hello World!</p>
+      <p>{display}</p>
     </div>
   );
 }
